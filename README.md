@@ -11,3 +11,9 @@ Train models to detect the sentiment of written text of the following paper http
 1) Train a baseline model for CIFAR10 classification
 2) Train a discriminator/generator pair on CIFAR10 dataset utilizing techniques from ACGAN and Wasserstein GANs
 3) Use techniques to create synthetic images maximizing class output scores or particular features as a visualization technique to understand how a CNN is working
+
+#### 7. Semantic Segmentation
+
+U-net based semantic segmentation model on theStanford Background Dataset.
+
+9 categories are included: sky, tree, road, grass, water, building, mountain, foreground, misc.
