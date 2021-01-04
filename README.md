@@ -18,3 +18,5 @@ Train models to detect the sentiment of written text of the following paper http
 U-net based semantic segmentation model on theStanford Background Dataset.
 
 Nine categories are included: sky, tree, road, grass, water, building, mountain, foreground, misc.
+
+#### 8. Policy Gradient RL
