@@ -1,22 +1,33 @@
 # Deep-Learning-Frameworks
 
+This repository is a comprehensive guide to various deep learning frameworks, focusing on practical implementations and training. Each section is dedicated to a specific aspect of deep learning, covering a range of datasets and approaches. The content is suitable for learners at all levels, from beginners to advanced practitioners.
 
-## The frameworks inculdes the following topics:
-#### 1. Implement and train a neural network from scratch in Python for the MNIST dataset (no PyTorch).
-#### 2. Implement and train a convolution neural network from scratch in Python for the MNIST dataset (no PyTorch).
-#### 3. Train a deep convolution network on a GPU with PyTorch for the CIFAR10 dataset.
-#### 4. Implement a deep residual neural network for CIFAR100. 
-#### 5. Natural Language Processing 
-Train models to detect the sentiment of written text of the following paper http://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf
-#### 6. Implement generative adversarial networks
-1) Train a baseline model for CIFAR10 classification
-2) Train a discriminator/generator pair on CIFAR10 dataset utilizing techniques from ACGAN and Wasserstein GANs
-3) Use techniques to create synthetic images maximizing class output scores or particular features as a visualization technique to understand how a CNN is working
+## Topics Covered
 
-#### 7. Semantic Segmentation
+### 1. **Neural Network Basics**
+   - **MNIST Dataset**: Implement and train a basic neural network from scratch in Python. (Note: This does not use PyTorch.)
 
-U-net based semantic segmentation model on theStanford Background Dataset.
+### 2. **Convolutional Neural Networks (CNNs)**
+   - **MNIST Dataset**: Implement and train a CNN from scratch in Python. (Excludes PyTorch usage.)
 
-Nine categories are included: sky, tree, road, grass, water, building, mountain, foreground, misc.
+### 3. **Deep Learning with PyTorch**
+   - **CIFAR10 Dataset**: Train a deep convolutional network using PyTorch on a GPU.
 
-#### 8. Policy Gradient RL
+### 4. **Advanced Neural Networks**
+   - **CIFAR100 Dataset**: Implement and train a deep residual neural network.
+
+### 5. **Natural Language Processing (NLP)**
+   - **Sentiment Analysis**: Train models to detect sentiment in text, based on the paper [Deeply Moving: Deep Learning for Sentiment Analysis](http://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf).
+
+### 6. **Generative Adversarial Networks (GANs)**
+   - **CIFAR10 Classification**: Train a baseline model.
+   - **Discriminator/Generator Pair Training**: Apply ACGAN and Wasserstein GAN techniques on the CIFAR10 dataset.
+   - **Synthetic Image Creation**: Techniques for visualizing CNN functionality by creating images that maximize class output scores or specific features.
+
+### 7. **Semantic Segmentation**
+   - **Stanford Background Dataset**: Implement a U-net based model for semantic segmentation. Categories include sky, tree, road, grass, water, building, mountain, foreground, and misc.
+
+### 8. **Policy Gradient Reinforcement Learning (RL)**
+   - A focus on policy gradient methods in RL, with implementations and examples.
+
+
